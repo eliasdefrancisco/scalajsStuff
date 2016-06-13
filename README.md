@@ -1,6 +1,6 @@
 # scalajsStuff
 
-This repository is only for learn about scalaJs and that pretty stuff.
+This repository is only for learn about scalaJs and all those pretty stuff
 
 You can see the magic here (production)
 https://cdn.rawgit.com/eliasdefrancisco/scalajsStuff/master/scalajsStuff.html
