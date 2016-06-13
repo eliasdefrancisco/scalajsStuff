@@ -1,0 +1,13 @@
+run
+exit
+run
+last
+fastOptJS
+reload
+fastOptJS
+reload
+fastOptJS
+reload
+fastOptJS
+:q
+exit
