@@ -1514,10 +1514,10 @@ $c_Ltutorial_webapp_TutorialApp$.prototype.main__V = (function() {
   }))
 });
 $c_Ltutorial_webapp_TutorialApp$.prototype.setupUI__V = (function() {
-  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("#click-me-button").click((function() {
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<button type=\"button\">Click me hard!</button>").click((function() {
     $m_Ltutorial_webapp_TutorialApp$().addClickedMessage__V()
-  }));
-  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>Mr.Scalajs is comming!!</p>")
+  })).appendTo((0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body"));
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>Mr.Scalajs is comming!</p>")
 });
 $c_Ltutorial_webapp_TutorialApp$.prototype.addClickedMessage__V = (function() {
   (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>You clicked the button, didn't you?")

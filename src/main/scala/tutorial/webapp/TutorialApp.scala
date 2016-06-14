@@ -32,12 +32,18 @@ object TutorialApp extends JSApp {
 //  @JSExport
   def addClickedMessage(): Unit = {
 //    appendPar(document.body, "You clicked the button, didn't you?")
-    jQuery("body").append("<p>You clicked the button, didn't you?")
+    jQuery("body").append("<p>You clicked the button!")
   }
 
   def setupUI(): Unit = {
-    jQuery("#click-me-button").click(addClickedMessage _)
+//    jQuery("#click-me-button").click(addClickedMessage _)
+    jQuery("""<button type="button">Click me hard!</button>""")
+      .click(addClickedMessage _)
+      .appendTo(jQuery("body"))
+
     jQuery("body").append("<p>Mr.Scalajs is comming!</p>")
+
+
   }
 
 

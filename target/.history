@@ -11,3 +11,16 @@ reload
 fastOptJS
 :q
 exit
+run
+reload
+run
+test
+reload
+run
+test
+fastOptJs
+fastOptJS
+test
+fullOptJS
+test
+exit

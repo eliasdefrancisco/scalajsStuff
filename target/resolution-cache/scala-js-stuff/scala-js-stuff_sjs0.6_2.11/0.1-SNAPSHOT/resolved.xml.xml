@@ -4,7 +4,7 @@
 		module="scala-js-stuff_sjs0.6_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160613190602"
+		publication="20160614205040"
 	>
 		<description>
 		Scala.js Stuff
@@ -41,5 +41,6 @@
 		<dependency org="org.scala-js" name="scalajs-compiler_2.11.8" rev="0.6.9" conf="plugin->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-library_2.11" rev="0.6.9" conf="compile->default(compile)"/>
 		<dependency org="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" rev="0.9.0" conf="compile->default(compile)"/>
+		<dependency org="com.lihaoyi" name="utest_sjs0.6_2.11" rev="0.3.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

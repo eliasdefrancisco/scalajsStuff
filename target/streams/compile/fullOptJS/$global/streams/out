@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mFull optimizing /home/elias/ejercicios/scalajsStuff/target/scala-2.11/scala-js-stuff-opt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 46458 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 14282 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 64216 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 25480 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 788 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 56443 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 82984 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 23033 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 2073 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 25253 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 37[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 96[0m
+[0m[[0mdebug[0m] [0mEmitter (create Closure trees): 122914 us[0m
+[0m[[0minfo[0m] [0mClosure: 0 error(s), 0 warning(s)[0m
+[0m[[0mdebug[0m] [0mClosure: Compiler pass: 1966319 us[0m
+[0m[[0mdebug[0m] [0mClosure: Write result: 106348 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 6 -- invalidated: 0 -- trees read: 0[0m

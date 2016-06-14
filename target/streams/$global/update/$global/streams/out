@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1367bc9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fc1a7d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -194,6 +194,69 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.lihaoyi#utest_sjs0.6_2.11;0.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.lihaoyi#utest_sjs0.6_2.11;0.3.0 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.lihaoyi#utest_sjs0.6_2.11;0.3.0[0m
+[0m[[0mdebug[0m] [0m	found com.lihaoyi#utest_sjs0.6_2.11;0.3.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.4] org.scala-lang#scala-reflect;2.11.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-test-interface_2.11;0.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-test-interface_2.11;0.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-js#scalajs-test-interface_2.11;0.6.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-js#scalajs-test-interface_2.11;0.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -369,6 +432,52 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-lang#scala-reflect;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#utest_sjs0.6_2.11;0.3.0->org.scala-js#scalajs-test-interface_2.11;0.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-test-interface_2.11;0.6.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT->com.lihaoyi#utest_sjs0.6_2.11;0.3.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -600,6 +709,9 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0!scalajs-jquery_sjs0.6_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#utest_sjs0.6_2.11;0.3.0!utest_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.0!scalajs-test-interface_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.8;0.6.9!scalajs-compiler_2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
@@ -613,7 +725,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 284ms :: artifacts dl 13ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 350ms :: artifacts dl 15ms[0m
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT test produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-test.xml[0m
@@ -628,5 +740,5 @@
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala-js-stuff#scala-js-stuff_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /home/elias/ejercicios/scalajsStuff/target/resolution-cache/reports/scala-js-stuff-scala-js-stuff_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (284ms resolve - 13ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (350ms resolve - 15ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
