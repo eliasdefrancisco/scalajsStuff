@@ -1,13 +1,13 @@
 [0m[[0mdebug[0m] [0mGenerating LinkingUnit for JSEnv RhinoJSEnv[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 48854 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 25130 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 75317 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 55781 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 19622 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 77020 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 23040 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 7 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 12932 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 40508 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 63610 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 10796 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 74612 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 17291 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 2 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 2308 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 22589 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 55097 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 6285 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 61553 us[0m
 [0m[[0mdebug[0m] [0mLoading JSEnv with LinkingUnit[0m

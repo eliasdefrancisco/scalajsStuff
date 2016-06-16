@@ -1,4 +1,4 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(tutorial.webapp.TutorialTest, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@afc9aa, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(tutorial.webapp.TutorialTest, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@19b0f3, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0m-----------------------------------Results-----------------------------------[0m
 [0m[[0minfo[0m] [0mtutorial.webapp.TutorialTest		[32mSuccess[0m[0m
 [0m[[0minfo[0m] [0m    HelloWord		[32mSuccess[0m[0m

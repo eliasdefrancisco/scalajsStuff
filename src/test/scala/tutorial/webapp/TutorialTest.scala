@@ -14,7 +14,7 @@ object TutorialTest extends TestSuite {
   def tests = TestSuite {
 
     'HelloWord {
-      assert(jQuery("p:contains('Mr.Scalajs is comming!')").length == 1)
+      assert(jQuery("h1:contains('Mr.Scalajs is comming!')").length == 1)
     }
 
     'ButtonClick {

@@ -1495,6 +1495,54 @@ function $m_sr_Statics$() {
   return $n_sr_Statics$
 }
 /** @constructor */
+function $c_Ltutorial_webapp_MiApp1$() {
+  $c_O.call(this)
+}
+$c_Ltutorial_webapp_MiApp1$.prototype = new $h_O();
+$c_Ltutorial_webapp_MiApp1$.prototype.constructor = $c_Ltutorial_webapp_MiApp1$;
+/** @constructor */
+function $h_Ltutorial_webapp_MiApp1$() {
+  /*<skip>*/
+}
+$h_Ltutorial_webapp_MiApp1$.prototype = $c_Ltutorial_webapp_MiApp1$.prototype;
+$c_Ltutorial_webapp_MiApp1$.prototype.init___ = (function() {
+  return this
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.hello2__V = (function() {
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").empty();
+  $m_Ltutorial_webapp_TutorialApp$().setupUI__V()
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.hello__V = (function() {
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<h2>MiApp1 on the air</h2>").appendTo((0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body"))
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.main__V = (function() {
+  /*<skip>*/
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.$$js$exported$meth$main__O = (function() {
+  this.main__V()
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.main = (function() {
+  return this.$$js$exported$meth$main__O()
+});
+var $d_Ltutorial_webapp_MiApp1$ = new $TypeData().initClass({
+  Ltutorial_webapp_MiApp1$: 0
+}, false, "tutorial.webapp.MiApp1$", {
+  Ltutorial_webapp_MiApp1$: 1,
+  O: 1,
+  sjs_js_JSApp: 1
+});
+$c_Ltutorial_webapp_MiApp1$.prototype.$classData = $d_Ltutorial_webapp_MiApp1$;
+var $n_Ltutorial_webapp_MiApp1$ = (void 0);
+function $m_Ltutorial_webapp_MiApp1$() {
+  if ((!$n_Ltutorial_webapp_MiApp1$)) {
+    $n_Ltutorial_webapp_MiApp1$ = new $c_Ltutorial_webapp_MiApp1$().init___()
+  };
+  return $n_Ltutorial_webapp_MiApp1$
+}
+$e.tutorial = ($e.tutorial || {});
+$e.tutorial.webapp = ($e.tutorial.webapp || {});
+$e.tutorial.webapp.MiApp1 = $m_Ltutorial_webapp_MiApp1$;
+/** @constructor */
 function $c_Ltutorial_webapp_TutorialApp$() {
   $c_O.call(this)
 }
@@ -1514,13 +1562,21 @@ $c_Ltutorial_webapp_TutorialApp$.prototype.main__V = (function() {
   }))
 });
 $c_Ltutorial_webapp_TutorialApp$.prototype.setupUI__V = (function() {
-  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<button type=\"button\">Click me hard!</button>").click((function() {
+  var body = (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<h1>Mr.Scalajs is comming!</h1>");
+  var nav = (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<div></div>").appendTo(body).css("background-color", "rgb(200,200,200)").css("overflow", "hidden");
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<div><button type=\"button\">Click me hard!</button></div>").click((function() {
     $m_Ltutorial_webapp_TutorialApp$().addClickedMessage__V()
-  })).appendTo((0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body"));
-  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>Mr.Scalajs is comming!</p>")
+  })).appendTo(nav);
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<div><button type=\"button\">Linking other object</button></div>").click((function() {
+    $m_Ltutorial_webapp_MiApp1$().hello__V()
+  })).appendTo(nav);
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("<div><button type=\"button\">Link & ResetUI</button></div>").click((function() {
+    $m_Ltutorial_webapp_MiApp1$().hello2__V()
+  })).appendTo(nav);
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("div div").css("padding", "3").css("float", "left")
 });
 $c_Ltutorial_webapp_TutorialApp$.prototype.addClickedMessage__V = (function() {
-  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>You clicked the button, didn't you?")
+  (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body").append("<p>You clicked the button!</p>")
 });
 $c_Ltutorial_webapp_TutorialApp$.prototype.$$js$exported$meth$main__O = (function() {
   this.main__V()

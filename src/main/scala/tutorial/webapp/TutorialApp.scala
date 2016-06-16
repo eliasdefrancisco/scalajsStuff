@@ -32,21 +32,36 @@ object TutorialApp extends JSApp {
 //  @JSExport
   def addClickedMessage(): Unit = {
 //    appendPar(document.body, "You clicked the button, didn't you?")
-    jQuery("body").append("<p>You clicked the button!")
+    jQuery("body").append("<p>You clicked the button!</p>")
   }
 
   def setupUI(): Unit = {
-//    jQuery("#click-me-button").click(addClickedMessage _)
-    jQuery("""<button type="button">Click me hard!</button>""")
+
+    val body = jQuery("body")
+      .append("<h1>Mr.Scalajs is comming!</h1>")
+
+    val nav = jQuery("""<div></div>""")
+      .appendTo(body)
+      .css("background-color","rgb(200,200,200)")
+      .css("overflow","hidden")
+
+    jQuery("""<div><button type="button">Click me hard!</button></div>""")
       .click(addClickedMessage _)
-      .appendTo(jQuery("body"))
+      .appendTo(nav)
 
-    jQuery("body").append("<p>Mr.Scalajs is comming!</p>")
+    jQuery("""<div><button type="button">Linking other object</button></div>""")
+      .click(MiApp1.hello _)
+      .appendTo(nav)
 
+    jQuery("""<div><button type="button">Link & ResetUI</button></div>""")
+      .click(MiApp1.hello2 _)
+      .appendTo(nav)
+
+    jQuery("div div")
+      .css("padding","3")
+      .css("float","left")
 
   }
-
-
 
 }
 
